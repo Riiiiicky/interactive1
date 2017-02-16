@@ -1,0 +1,189 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+}
+
+#youtube {
+	background: #E73028;
+}
+#facebook{
+	background: #39579A;
+}
+#instagram{
+	background:linear-gradient(blue, red ) ;
+}
+#twitter{
+	background: #1EA0F2;
+}
+#weibo {
+	background: #FDEE5B;
+}
+#linkedin {
+	background: #0085C7;
+}
+
+
+#element2 {	
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -212px;
+	margin-top: -135px;	
+	text-align: center;
+}
+
+#element1 {	
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -254px;
+	margin-top: -102px;	
+	text-align: center;
+}
+
+#element3 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -254px;
+	margin-top: -83px;	
+	text-align: center;
+}
+
+#element4 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -202px;
+	margin-top: -73px;	
+	text-align: center;
+}
+
+#element5 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -212px;
+	margin-top: -81px;	
+	text-align: center;
+}
+
+#element6 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -174.5px;
+	margin-top: -95px;	
+	text-align: center;
+}
+
+#elements {
+	display: block;
+	font-family: Helvetica;
+}
+
+
+#icon{
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	right: 50px;
+	top: 50px;
+}
+
+#text {
+	position: absolute;
+	left: 50px;
+	bottom: 50px;
+	width: 250px;
+}
+
+#user {
+	width: 1240px; height: auto;
+  
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	color: black;
+	text-decoration: none;
+}
+
+a:hover:visited {
+	color: black;
+	text-decoration: 
+}
+
+a:visited {
+	color: black;
+	text-decoration: 
+}
+
+a:active {
+	color: white;
+	text-decoration: 
+}
+
+a:active:visited {
+	color: white;
+	text-decoration: 
+}
+
+.user {
+	display: block;
+	float: left;
+}
+
+.face {
+	display: block;
+	float: left;
+}
+
+#facebookuser {
+	background-color: white;
+}
+
+#instagramuser {
+	background-color: white;
+}
+
+#instagramuser div{
+	width: 25vw;
+	float: left;
+}
+
+#instagramuser div img{
+	width: 100%;
+	height: auto;
+}
+
+#facebookuser div{
+	width:20vw;
+	float: left;
+}
+
+#facebookuser div img{
+	width: 80%
+	height:auto;
+}
+#introduction {
+	font-family: Helvetica;
+	font-size:200%;
+	color:black;
+	font-style: bold; 
+
+}
+
+#introduction div {
+	font-size: 5vw
+	position:absolute;
+	float: left;
+	padding-left: 70px;
+}
