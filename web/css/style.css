@@ -12,6 +12,10 @@ body {
 #facebook{
 	background: #39579A;
 }
+
+#dollar{
+	background: black;
+}
 #instagram{
 		
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#533ad9+0,9d2093+33,f12046+66,ff8246+100 */
@@ -58,6 +62,15 @@ body {
 	left: 50%;
 	margin-left: -254px;
 	margin-top: -83px;	
+	text-align: center;
+}
+
+#element0 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -341px;
+	margin-top: -212px;	
 	text-align: center;
 }
 
