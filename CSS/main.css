@@ -1,38 +1,40 @@
-body {color:black; 
-background: #fdd62c
+body { 
+background: #01363d;
+color:#fdd62c;
 }
 
 #intro div{
 	text-align: center;
-	padding-top: 200px;
+	padding-top: 50px;
 } 
+
 a {
-	color: white;
+	color: #fdd62c;
 	text-decoration: none;
 }
 
 a:hover {
-	color: black;
+	color: white;
 	text-decoration: none;
 }
 
 a:hover:visited {
-	color: black;
+	color: #fdd62c;
 	text-decoration: 
 }
 
 a:visited {
-	color: black;
+	color: #fdd62c;
 	text-decoration: 
 }
 
 a:active {
-	color: white;
+	color: #fdd62c;
 	text-decoration: 
 }
 
 a:active:visited {
-	color: white;
+	color: #fdd62c;
 	text-decoration: 
 }
 
