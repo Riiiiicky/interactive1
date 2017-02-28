@@ -1,0 +1,65 @@
+* { margin: 0px; padding: 0px; }
+
+body {
+	
+    background-image: url(img/3.jpg);
+    background: #fdd62c;
+    width: 100%;
+    height: 100%;
+	
+}
+
+#desktop{
+	transform: rotate(-15deg);
+	opacity: 1;
+	color: white;
+	display: block;
+	font-size: 36px;
+	background-image: url(img/3.jpg);
+	background: #fdd62c;
+
+
+
+}
+
+#tablet, #mobile {
+	opacity: 0;
+}
+
+/* iPad */
+@media (min-width: 668px) and (max-width: 1024px) { 
+	body {
+		background: #d1d3d4;
+		color: #fdd62c;
+		font-size: 72px;
+		transform: rotate(15deg)
+	}
+
+	#tablet{
+		opacity: 1;
+	}
+
+	#desktop, #mobile {
+		opacity: 0;
+	}
+
+}
+
+/* iPhone 6*/
+@media (min-width: 375px) and (max-width: 667px) { 
+	
+	body {
+		background: black;
+		color: #d1d3d4;
+		font-size: 36px;
+		transform: rotate(-15deg);
+	}
+
+	#mobile{
+		opacity: 1;
+	}
+
+	#desktop, #tablet {
+		opacity: 0;
+	}
+}
