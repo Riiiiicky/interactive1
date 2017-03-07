@@ -1,0 +1,68 @@
+* { margin: 0px; padding: 0px; }
+
+body {
+	text-align: left;
+	font-family: helvetica;
+	background-color: white;
+	color: #fdd62c;
+}
+
+h1#title {
+	position: fixed;
+	top: 20px;
+	left: 50px;
+	transform: rotate(90deg);
+    transform-origin: top left;
+}
+
+#QRcode {
+	padding: 100px 0px;
+	width: 700px;
+	margin: auto;
+}
+
+#diagram {
+	width: 800px;
+	margin: 150px auto 0px;
+	height: calc(100vh - 150px);
+}
+
+#diagram img {
+	display: inline-block;
+	vertical-align: middle;
+	transform: scale(.8);
+	animation-name: fadeout;
+	animation-duration: 6s;
+	animation-iteration-count: infinite;
+	opacity: 1;
+	width: 400px;
+	height: auto;
+	position: fixed;
+}
+
+#code {
+	
+	width: 300px;
+	height: auto;
+	z-index: 5;
+	opacity: 1;
+	transition: all 1500ms ease;
+}
+
+#pic {
+	animation-delay: 700ms;
+	z-index: 4;
+	opacity: 1;
+	transition: all 500ms ease;
+}
+
+#content {
+	animation-delay: 900ms;
+	z-index: 3;
+	opacity: 1;
+}
+
+#code:hover {
+	opacity: 0;
+
+}
