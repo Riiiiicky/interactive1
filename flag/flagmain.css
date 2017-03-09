@@ -1,0 +1,65 @@
+* { margin: 0px; padding: 0px; }
+
+body {
+	text-align: left;
+	font-family: helvetica;
+	color: black;
+	background: #fdd62c;
+}
+
+/* flag outline */
+
+.flag {
+	width: 640px;
+	height: 320px;
+	background: white;
+    margin: calc(50vh - 160px) 0px auto 0px auto;
+    box-shadow: 0px 0px 20px  rgba(0,0,0,.24);
+    transition:all 500ms ease;
+    position: relative;
+}
+
+.flag:hover{
+	box-shadow: 0px 0px 200px rgba(0,0,0,1);
+	transform:scale(1.2) rotate(30deg) translateY(-120px);
+}
+
+/* japanese flag */
+
+#circle {
+	width: 150px;
+	height: 150px;
+	background: red;
+
+    position: absolute;
+	top:calc(50% - 75px)；
+    left: calc(50% - 75px)；
+
+    border-radius: 75px;
+
+}
+
+/* media queries */
+
+@media (min-width: 375px) and (max-width: 667px) { 
+
+	body {
+		background: pink;
+	}
+
+    .flag {
+	    width: 640px;
+	    height: 320px;
+	    background: green;	   
+    }
+
+    #circle {
+	    width: 150px;
+	    height: 150px;
+	    top:calc(50% - 75px)；
+        left: calc(50% - 75px)；
+        border-radius: 75px;
+    }
+        
+}
+

@@ -15,54 +15,144 @@ h1#title {
     transform-origin: top left;
 }
 
-#QRcode {
-	padding: 100px 0px;
-	width: 700px;
-	margin: auto;
+#QRcode1 {
+	padding: 100px 0px 100px 0px;
+	width: 300px;
+	margin: 50px;
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
 }
 
-#diagram {
-	width: 800px;
-	margin: 150px auto 0px;
+#QRcode2 {
+	padding: 100px 0px 100px 0px;
+	width: 300px;
+	margin: 50px;
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#QRcode3 {
+	padding: 100px 0px 100px 0px;
+	width: 300px;
+	margin: 50px;
+	position: relative;
+	display: inline-block;
+vertical-align: top;
+}
+
+#diagram1 {
+	width: 300px;
+	margin: 10px auto 5px 20px;
 	height: calc(100vh - 150px);
+	position: absolute;
+	top: 0px;
+	left: 40px;
 }
 
-#diagram img {
+#diagram2 {
+	width: 200px;
+	margin: 10px auto 5px 20px;
+	height: calc(100vh - 150px);
+	position: relative;
+	top: 170px;
+	left: 80px;
+}
+
+#diagram3 {
+	width: 300px;
+	margin: 10px auto 5px 20px;
+	height: calc(100vh - 150px);
+	position: relative;
+	top: -230px;
+	left: -50px;
+}
+
+#diagram4 {
+	width: 400px;
+	margin: 50px auto 0px;
+	height: calc(100vh - 150px);
+	position: relative;
+	top: 140px;
+	left: -100px;
+
+}
+
+#diagram5 {
+	width: 250px;
+	margin: 50px auto 0px;
+	height: calc(100vh - 150px);
+	position: relative;
+	top: -800px;
+	left: -40px;
+
+}
+
+#diagram6 {
+	width: 300px;
+	margin: 50px auto 0px;
+	height: calc(100vh - 150px);
+	position: relative;
+	top: -1200px;
+	left: 700px;
+}
+
+#diagram7 {
+	width: 200px;
+	margin: 50px auto 0px;
+	height: calc(100vh - 150px);
+	position: relative;
+	top: -2400px;
+	left: 650px;
+}
+
+#diagram8 {
+	width: 200px;
+	margin: 50px auto 0px;
+	height: calc(100vh - 150px);
+	position: relative;
+	top: -2700px;
+	left: 800px;
+}
+.diagram-holder img {
 	display: inline-block;
 	vertical-align: middle;
 	transform: scale(.8);
-	animation-name: fadeout;
-	animation-duration: 6s;
-	animation-iteration-count: infinite;
-	opacity: 1;
-	width: 400px;
+	width: 100%;
 	height: auto;
-	position: fixed;
+	position: absolute;
+	margin:50px auto 20px auto;
 }
 
-#code {
-	
-	width: 300px;
+.image-1 {
 	height: auto;
 	z-index: 5;
 	opacity: 1;
 	transition: all 1500ms ease;
 }
 
-#pic {
+.image-2 {
+	height: auto;
 	animation-delay: 700ms;
 	z-index: 4;
 	opacity: 1;
 	transition: all 500ms ease;
 }
 
-#content {
+.image-3 {
+	height: auto;
 	animation-delay: 900ms;
 	z-index: 3;
 	opacity: 1;
 }
 
-#code:hover {
+.image-1:hover {
+	opacity: 0;
+
+}
+
+.diagram-holder:active .image-1, .diagram-holder:active .image-2{
 	opacity: 0;
 
 }
