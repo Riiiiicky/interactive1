@@ -10,7 +10,11 @@ body {
 #desktop{
 
 /*	background-color:#f3f3f3;
+<<<<<<< HEAD
 */	background-image: url('../img/background.png') ;
+=======
+*/	background-image: url('img/background.png') ;
+>>>>>>> master
 	background-size: cover;
 	margin-left: 450px;
 	width: 500px;
