@@ -1,0 +1,12 @@
+.hide {
+  opacity: 0;
+}
+
+.background {
+  background:#fdd62c;
+  color: white;
+}
+
+.transformed {
+	transform: rotate3d(15deg);
+}
