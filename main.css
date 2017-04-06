@@ -1,0 +1,38 @@
+body {color:black; 
+background: #fdd62c
+}
+
+#intro div{
+	text-align: center;
+	padding-top: 200px;
+} 
+a {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	color: black;
+	text-decoration: none;
+}
+
+a:hover:visited {
+	color: black;
+	text-decoration: 
+}
+
+a:visited {
+	color: black;
+	text-decoration: 
+}
+
+a:active {
+	color: white;
+	text-decoration: 
+}
+
+a:active:visited {
+	color: white;
+	text-decoration: 
+}
+
