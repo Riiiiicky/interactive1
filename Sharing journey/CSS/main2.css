@@ -1,0 +1,164 @@
+body {
+	text-align: left;
+	font-family: helvetica;
+	background-color:black;
+}
+
+h1#title {
+	position: fixed;
+	top: 20px;
+	left: 50px;
+	transform: rotate(90deg);
+	transform-origin: top left;
+}
+
+#logo {
+	width: 20%;
+	position: relative;
+	transform: scale(.1);
+	top: 0px;
+	left: 1000px;
+	transform-origin: top right; 
+}
+
+#text {
+	width: 20%;
+	position: absolute;
+	transform: scale(.1);
+	top: 120px;
+	left: 1009px;
+	transform-origin: top right;
+}
+
+#leaven {
+	width: 300px;
+	position: relative;
+	top: 10px;
+	left: 950px;
+}
+
+#antelope {
+	width: 300px;
+	position: relative;
+	top: -20px;
+	left: 50px;
+}
+
+#la {
+	width: 350px;
+	position: relative;
+	top: 423px;
+	left: 70px;
+}
+
+#seattle {
+	width: 350px;
+	position: relative;
+	top: 370px;
+	left: 1080px;
+}
+
+#tahoe {
+	width: 350px;
+	position: relative;
+	top: 300px;
+	left: 750px;
+
+}
+
+#lv {
+	width: 300px;
+	position: relative;
+	top: 370px;
+	left: 422px;
+}
+
+#sf {
+	width: 400px;
+	position: relative;
+	top: 0px;
+	left: 400px;
+}
+
+.code-holder img {
+	display: inline-block;
+	vertical-align: middle;
+	width: 75%;
+	height: auto;
+	position: absolute;
+}
+
+.image-1 {
+	height: auto;
+	z-index: 5;
+	opacity: 1;
+	transition: all 500ms ease;
+}
+
+.image-2 {
+	height: auto;
+	z-index: 4;
+	opacity: 1;
+	transition: all 500ms ease-in-out;
+}
+
+#sf:hover img:nth-child(1) {
+	display: none;
+}
+
+#sf:hover img:nth-child(2) {
+	transform: scale(2);
+}
+
+#lv:hover img:nth-child(1) {
+	display: none;
+}
+
+#lv:hover img:nth-child(2) {
+	transform: scale(2);
+}
+
+#leaven:hover img:nth-child(1) {
+	display: none;
+}
+
+#leaven:hover img:nth-child(2) {
+	transform: scale(2);
+}
+
+#la:hover img:nth-child(1) {
+	display: none;
+}
+
+#la:hover img:nth-child(2) {
+	transform: scale(2);
+}
+
+#tahoe:hover img:nth-child(1) {
+	display: none;
+}
+
+#tahoe:hover img:nth-child(2) {
+	transform: scale(2);
+}
+
+#seattle:hover img:nth-child(1) {
+	display: none;
+}
+
+#seattle:hover img:nth-child(2) {
+	transform: scale(2);
+}
+
+#antelope:hover img:nth-child(1) {
+	display: none;
+}
+
+#antelope:hover img:nth-child(2) {
+	transform: scale(.8);
+}
+
+.diagram-holder:active .image-1, .diagram-holder:active .image-2{
+	opacity: 0
+
+}
