@@ -1,0 +1,91 @@
+* {margin: 20px; padding:10px;}
+
+body {
+	height: 100vh; 
+	width: 100vw; 
+	font-family: helvetica;
+	background: #a9ffe0;
+}
+
+
+#column1
+{
+	height: auto;
+	width: 150px;
+	float: left;
+}
+
+#column2
+{
+	height: 1000px;
+	width: 1000px;
+	float: left;
+}
+#part-1 {
+	color: white;
+	font-size: 2em;
+	height: 100px;
+	width: 100px;
+	background: #43ffac;
+	box-shadow: 5px 5px 0px #43d78e;
+	grid-column:1/3;
+}
+
+#part-2 {
+	color: white;
+	font-size: 2em;
+	height: 100px;
+	width: 100px;
+	background: #fffe26;
+	box-shadow: 5px 5px 0px #ffe253;
+	grid-column:2/3;
+}
+
+#part-3 {
+	color: white;
+	font-size: 2em;
+	height: 100px;
+	width: 100px;
+	background: #34e3ff;
+	box-shadow: 5px 5px 0px #34b0a8;
+	grid-column:3/3;
+}
+
+#part-4 {
+	color: white;
+	font-size: 2em;
+	height: 100px;
+	width: 100px;
+	background: #ff0a47;
+	box-shadow: 5px 5px 0px #8a0a47;
+}
+
+#part-5 {
+	color: white;
+	font-size: 2em;
+	height: 100px;
+	width: 100px;
+	background: #ffc419;
+	box-shadow: 5px 5px 0px #ffa308;
+}
+
+#newpassword {
+    color: grey;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 500;
+    z-index: 2;
+    width: 40vw;
+    height: auto;
+    top: 0px;
+    left: 150px；
+    padding: 15px;
+    border: solid 10px black;
+}
+
+#part {
+	display: grid;
+	grid-template-columns: repeat (3,1fr);
+}
+
+}

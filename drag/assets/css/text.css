@@ -1,0 +1,15 @@
+#introduction1 {
+  font-family: Helvetica;
+  padding: 150px;
+  background: #cdfde7; 
+
+}
+
+#introduction1 a{
+  color: grey;
+
+}
+
+#body a{
+	color: white;
+}
