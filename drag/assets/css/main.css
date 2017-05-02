@@ -92,7 +92,7 @@ body {
    position: absolute;
    margin-top: -30px;
    z-index:0;
-   background-color:#fdd62c;
+   background-color:#e1ea8d;
 }
 
 #fakeback2 {
@@ -101,7 +101,7 @@ body {
    position: absolute;
    margin-top: -30px;
    z-index:1;
-   background-color:#00dcff;
+   background-color:#6bcde7;
 }
 
 #fakeback3 {
